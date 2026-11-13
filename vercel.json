@@ -1,0 +1,14 @@
+{
+  "redirects": [
+    {
+      "source": "/files/v2/laying-it-down-worry-worksheet.pdf",
+      "destination": "https://drive.google.com/uc?export=download&id=1_CNyk_igzvj9L37DPLuQmcmXjGSFG1C1",
+      "permanent": false
+    },
+    {
+      "source": "/files/v2/how-to-understand-a-bible-verse-worksheet.pdf",
+      "destination": "https://drive.google.com/uc?export=download&id=1MwYQOAyCubU66wvypzsNCtVcWzsg6MtQ",
+      "permanent": false
+    }
+  ]
+}
