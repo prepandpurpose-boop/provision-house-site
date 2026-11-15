@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex">
+<title>Your Free Library | Provision House</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Jost:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --navy:#14213d; --navy-2:#1d2f55; --gold:#C59B27; --gold-ink:#7a5d0e; --sky:#eaf0f8; --paper:#ffffff; --ink:#1b2333; --mute:#4c566b; --line:#d5dceb;
+  --display:'Cormorant Garamond',Georgia,'Times New Roman',serif; --body:'Jost','Segoe UI',Arial,sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%}
+body{font-family:var(--body);background:var(--paper);color:var(--ink);font-size:18px;line-height:1.6}
+.wrap{max-width:900px;margin:0 auto;padding-left:max(22px,env(safe-area-inset-left,0px));padding-right:max(22px,env(safe-area-inset-right,0px))}
+a{color:inherit}
+a:focus-visible{outline:3px solid var(--gold);outline-offset:3px;border-radius:4px}
+h1,h2,h3{font-family:var(--display);font-weight:700;line-height:1.06;text-wrap:balance;color:var(--navy)}
+.top{padding:20px 0;border-bottom:1px solid var(--line)}
+.brand{font-family:var(--display);font-weight:700;font-size:26px;color:var(--navy);text-decoration:none}
+.brand span{color:var(--gold-ink)}
+.hero{padding:56px 0 30px}
+.kicker{font-size:13px;letter-spacing:.2em;text-transform:uppercase;font-weight:600;color:var(--gold-ink)}
+.hero h1{font-size:clamp(40px,6vw,60px);margin:10px 0 14px}
+.hero p{font-size:20px;max-width:640px}
+.group{padding:34px 0 10px}
+.group h2{font-size:clamp(28px,4vw,36px);padding-bottom:12px;border-bottom:4px solid var(--gold)}
+.item{display:grid;grid-template-columns:1fr auto;gap:10px 28px;align-items:center;padding:22px 0;border-bottom:1px solid var(--line)}
+.item h3{font-size:26px;margin-bottom:6px}
+.item p{color:var(--mute);font-size:17px;max-width:560px}
+.item small{display:block;color:var(--mute);font-size:15px;margin-top:4px}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:52px;padding:0 28px;background:var(--navy);color:#fff;text-decoration:none;font-weight:600;font-size:17px;border-radius:6px;border:2px solid var(--navy);white-space:nowrap}
+.btn:hover{background:var(--navy-2);border-color:var(--navy-2)}
+.note{background:var(--sky);margin:40px 0 0;padding:26px 0;font-size:17px}
+footer{background:var(--navy);color:#c3cbdb;padding:40px 0;font-size:16px;margin-top:0}
+footer .wrap{display:flex;justify-content:space-between;gap:12px 30px;flex-wrap:wrap;align-items:baseline}
+footer b{font-family:var(--display);font-size:24px;color:#fff;font-weight:600}
+@media (max-width:640px){
+  .item{grid-template-columns:1fr}
+  .btn{width:100%}
+  .hero{padding:40px 0 20px}
+}
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="https://www.provisionhouse.org/">Provision <span>House</span></a>
+  </div>
+</header>
+
+<main>
+<section class="hero">
+  <div class="wrap">
+    <div class="kicker">Thank you for joining</div>
+    <h1>Your Free Library</h1>
+    <p>Every free worksheet and study guide I have made is on this page. Click the button next to the one you want. It opens so you can print it or save it. A notebook and a pen are all you need.</p>
+  </div>
+</section>
+
+<section class="group">
+  <div class="wrap">
+    <h2>Kitchen and money worksheets</h2>
+
+    <div class="item">
+      <div>
+        <h3>My One-Page Household Plan</h3>
+        <p>A budget worksheet with four boxes. It is built around your paydays, and you check it once a week.</p>
+        <small>2 pages</small>
+      </div>
+      <a class="btn" href="one-page-household-plan.pdf">Open the worksheet</a>
+    </div>
+
+    <div class="item">
+      <div>
+        <h3>My One-Page Pantry Sheet</h3>
+        <p>Four columns: proteins, starches, vegetables and flavors. Fill it in before you write a grocery list.</p>
+        <small>1 page</small>
+      </div>
+      <a class="btn" href="pantry-sheet.pdf">Open the worksheet</a>
+    </div>
+
+    <div class="item">
+      <div>
+        <h3>Ten Meals From What You Have</h3>
+        <p>Ten meals built from the four columns of your pantry sheet. Find one where you already have all four parts.</p>
+        <small>1 page</small>
+      </div>
+      <a class="btn" href="ten-meals.pdf">Open the page</a>
+    </div>
+
+    <div class="item">
+      <div>
+        <h3>My Grocery Price Log</h3>
+        <p>Write down the regular price of the ten things you buy the most, so you know a real deal when you see one.</p>
+        <small>1 page</small>
+      </div>
+      <a class="btn" href="grocery-price-log.pdf">Open the worksheet</a>
+    </div>
+  </div>
+</section>
+
+<section class="group">
+  <div class="wrap">
+    <h2>Bible study guides</h2>
+
+    <div class="item">
+      <div>
+        <h3>Laying It Down</h3>
+        <p>A worksheet for the days when worry is loud. You need a pen and about ten minutes.</p>
+        <small>5 pages</small>
+      </div>
+      <a class="btn" href="laying-it-down.pdf">Open the worksheet</a>
+    </div>
+
+    <div class="item">
+      <div>
+        <h3>How to Understand a Bible Verse</h3>
+        <p>Seven steps for one verse at a time, so you know you got it right.</p>
+        <small>7 pages</small>
+      </div>
+      <a class="btn" href="understand-a-bible-verse.pdf">Open the worksheet</a>
+    </div>
+
+    <div class="item">
+      <div>
+        <h3>Who Was It Written To?</h3>
+        <p>Three questions to ask about any verse. They show you what the verse meant to the first people who heard it.</p>
+        <small>2 pages</small>
+      </div>
+      <a class="btn" href="who-was-it-written-to.pdf">Open the page</a>
+    </div>
+
+    <div class="item">
+      <div>
+        <h3>How to Study a Bible Passage</h3>
+        <p>Ten steps, in order, for when you do not know where to start. Then a full practice study in Luke 17:11&ndash;19.</p>
+        <small>16 pages</small>
+      </div>
+      <a class="btn" href="study-a-bible-passage-luke-17.pdf">Open the guide</a>
+    </div>
+
+    <div class="item">
+      <div>
+        <h3>The Jar That Never Ran Out</h3>
+        <p>A practice study in 1 Kings 17:8&ndash;16. One passage and three Hebrew words, worked one step at a time.</p>
+        <small>10 pages</small>
+      </div>
+      <a class="btn" href="jar-that-never-ran-out-1-kings-17.pdf">Open the study</a>
+    </div>
+
+    <div class="item">
+      <div>
+        <h3>Blank Word Cards</h3>
+        <p>After you study a word, make a card for it and put it in your Bible journal. Print this page as many times as you need.</p>
+        <small>1 page</small>
+      </div>
+      <a class="btn" href="blank-word-cards.pdf">Open the cards</a>
+    </div>
+  </div>
+</section>
+
+<section class="note">
+  <div class="wrap">
+    <p>When I make something new, I add it to this page and tell you in an email. Keep the email with this link so you can come back.</p>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <b>Provision House</b>
+    <span>Steward what you have, serve where you are.</span>
+    <span>&copy; 2026 Provision House LLC</span>
+  </div>
+</footer>
+</body>
+</html>
